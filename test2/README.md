@@ -7,8 +7,8 @@
     <th width="40%", bgcolor=withe>专业班级</th>
   </tr>
   <tr>
-      <th width=100%, bgcolor=withe >郭耀文</th>
-      <th width=40%, bgcolor=withe>201510414404</th>
+      <th width=100%, bgcolor=withe >刘俊成</th>
+      <th width=40%, bgcolor=withe>201510414410</th>
       <th width="40%", bgcolor=withe>2015级软件工程4班</th>
     </tr>
 </table>
