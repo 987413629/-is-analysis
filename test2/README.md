@@ -1,17 +1,8 @@
 
 --------------------------
-<table>
-<tr>
-    <th width=100%, bgcolor=withe >姓名</th>
-    <th width=40%, bgcolor=withe>学号</th>
-    <th width="40%", bgcolor=withe>专业班级</th>
-  </tr>
-  <tr>
-      <th width=100%, bgcolor=withe >刘俊成</th>
-      <th width=40%, bgcolor=withe>201510414410</th>
-      <th width="40%", bgcolor=withe>2015级软件工程4班</th>
-    </tr>
-</table>
+|学号|班级|姓名|照片|
+|:-------:|:-------------: | :----------:|:---:|
+|201510414410|软件(本)15-4|刘俊成||
 
 实验二、图书管理系统流程
 ------------
