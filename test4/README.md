@@ -106,3 +106,42 @@ deactivate 图书管理系统
 7. updateBook(int bookId)：修改图书 
 8. result()：返回执行结果
 ```
+
+## 3. 预借用例
+## 3.1. 预借用例PlantUML源码
+
+``` 
+
+@startuml
+actor  借阅者 as reader
+actor  图书管理员 as admin
+activate reader
+activate admin
+reader->admin:提供借阅卡
+reader->admin:验证借书者是否本人
+reader->admin:提供借阅书籍的书名
+
+admin->借书者:验证借书者
+admin->借书者:取借书者限额
+admin->资源项:获取资源项
+资源项->馆藏资源:查找资源品种
+图书管理员->预订记录:创建预定记录
+资源项->图书:减少可借数量
+admin->预订记录:打印预定清单
+@enduml
+
+
+```
+
+## 3.2.预借用例顺序图
+![class](3.png)
+
+## 3.3. 借书用例顺序图说明
+```
+
+	1.验证借书者信息和额度
+	2.图书管理员发起借书请求
+	3.减少资源可借数量和可借额度
+	4.创建借书记录
+
+```
