@@ -75,7 +75,7 @@
 
 ## 2. 界面设计
 ## 2.1. 借书界面设计
-![pic1](12.png)
+![](1.png)
 
 - 用例图参见：借书用例
 - 类图参见：借书类，读者类
@@ -102,7 +102,7 @@
   "message":"说明信息",
   "data":{
             "uid": "201510414108",
-            "nickname": "gkj", 
+            "nickname": "ljc", 
 			"brrowNum":2,
 			"maxBrrowNum":10,
 			"maxBorrowDays":30,
