@@ -102,11 +102,11 @@
   "message":"说明信息",
   "data":{
             "uid": "201510414108",
-            "nickname": "ljc", 
+            "nickname": "刘俊成", 
 			"brrowNum":2,
 			"maxBrrowNum":10,
 			"maxBorrowDays":30,
-			"lastBrrowTime":"2018-5-6"
+			"lastBrrowTime":"2018-05-08"
         }
 }
 ```
