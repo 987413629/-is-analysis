@@ -22,10 +22,10 @@
 
 
 
-## 3. 用例图设计 [源码](./src/usecase.puml)
+## 3. 用例图设计 [源码](./src/用例图.puml)
 ![](./img/yongli.png)
 
-## 4. 类图设计 [源码](./src/class.puml)
+## 4. 类图设计 [源码](./src/类图.puml)
 ![](./img/leitu.png)
 
 ## 5. 数据库设计
